@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle, rgba(183,172,150,1) 0%, rgba(97,84,70,1) 100%); 
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.login-box {
+  width: 320px;
+  height: 420px;
+  background: #000;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.login-box .avatar {
+  width: 40%;
+  height: 25%;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(60% - 30%);
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #b7ac96;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: white;
+  color: #000;
+}
+
+.login-box a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.login-box a:hover {
+  color: #fff;
+}
+@media (max-width: 1500px) and (min-width: 1300px){
+  .navegacion {
+      height: 25%;
+  }
+  .nav-link{
+      font-size: 1.5em;
+  }
+  button{
+      height: 20%;
+  }
+  }
+  
+  /*///////////////////////////////////////////////////////////*/
+  
+  @media (max-width: 1299px) and (min-width: 1100px){
+      .navegacion {
+          height: 25%;
+      }
+      .nav-link {
+          font-size: 1.5em;
+      }
+      button{
+          height: 20%;
+      }
+  }
+  /*//////////////////////////////////////////////////////////*/
+  @media (max-width: 1099px) and (min-width: 850px){
+      .navegacion {
+          height: 20%;
+      }
+      .nav-link{
+          font-size: 1.5em;
+      }
+      button{
+          height: 25%;
+      }
+      .con-imgenes{
+          width: 100%;
+          height: 100%;
+          padding: 0;
+      }
+      .descripcion{
+          height: 50%;
+      }
+  }
+
+  @media (max-width: 849px) and (min-width: 700px){ 
+      .navegacion {
+          width: 18%;
+      }
+      .contenedor-Logo {
+          height: 75%;
+          width: 35%;
+      }
+      .nav-link {
+          font-size: 1.3em;
+      }
+  }
+  /*//////////////////////////////////////////////////////////*/
+  @media (max-width: 699px) and (min-width:500px){
+      .navegacion{
+          height: 45%;
+      }
+      }
+      @media (max-width: 499px){
+          .contdebienvenidaylogin {width: 100%;}
+      .franyicons {display: none;}
+      }
