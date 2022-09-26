@@ -83,6 +83,7 @@ body {
 .login-box a:hover {
   color: #fff;
 }
+a { display: inline-block;}
 @media (max-width: 1500px) and (min-width: 1300px){
   
   }
