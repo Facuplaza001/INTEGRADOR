@@ -84,114 +84,25 @@ body {
   color: #fff;
 }
 @media (max-width: 1500px) and (min-width: 1300px){
-  .navegacion {
-      height: 25%;
-  }
-  .nav-link{
-      font-size: 1.5em;
-  }
-  button{
-      height: 20%;
-  }
+  
   }
   
   /*///////////////////////////////////////////////////////////*/
   
   @media (max-width: 1299px) and (min-width: 1100px){
-      .navegacion {
-          height: 25%;
-      }
-      .nav-link {
-          font-size: 1.5em;
-      }
-      button{
-          height: 20%;
-      }
+      
   }
   /*//////////////////////////////////////////////////////////*/
   @media (max-width: 1099px) and (min-width: 850px){
-      .navegacion {
-          height: 20%;
-      }
-      .nav-link{
-          font-size: 1.5em;
-      }
-      button{
-          height: 25%;
-      }
-      .con-imgenes{
-          width: 100%;
-          height: 100%;
-          padding: 0;
-      }
-      .descripcion{
-          height: 50%;
-      }
+      
   }
 
   @media (max-width: 849px) and (min-width: 700px){ 
-    .navegacion {
-        height: 18%;
-    }
-    .contenedor-Logo {
-        height: 75%;
-        width: 35%;
-    }
-    .nav-link    {
-        font-size: 1.3em;
-    }
-    .con-imgenes .imagenes{ 
-            margin: 0%;
-            width: 80%;
-            height: 80%;
-    }
-   .contenedor {
-    width: 100%;
-  }
+    
 }
 /*//////////////////////////////////////////////////////////*/
 @media (max-width: 699px) and (min-width:500px){
-    .navegacion {
-        height: 15%;
-    }
-    .contenedor-Logo {
-        height: 70%;
-        width: 30%;
-    }
-    .nav-link    {
-        font-size: 1.3em;
-    }
-    .con-imgenes .imagenes{ 
-            margin: 0%;
-            width: 85%;
-            height: 85%;
-    }
-    .contenedor {
-    width: 100%;
-  }
+   
 }
     @media (max-width: 499px){ 
-  
-  .navegacion {
-        height: 15%;
-    }
-    .contenedor-Logo {
-        height: 70%;
-        width: 30%;
-    }
-    .nav-link    {
-        font-size: 1em;
-    }
-    .con-imgenes .imagenes{ 
-            margin: 0%;
-            width: 85%;
-            height: 85%;
-    } 
-   .ubicacion { margin-top: 5%}
-
-   .cards2  { width:40%;}
-
-  .contenedor {
-    width: 100%;
-  } 
 }
