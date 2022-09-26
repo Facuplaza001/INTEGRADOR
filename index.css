@@ -265,7 +265,7 @@ footer {
 
     @media (max-width: 849px) and (min-width: 700px){ 
         .navegacion {
-            width: 18%;
+            height: 20%;
         }
         .contenedor-Logo {
             height: 75%;
@@ -278,10 +278,16 @@ footer {
     /*//////////////////////////////////////////////////////////*/
     @media (max-width: 699px) and (min-width:500px){
         .navegacion{
-            height: 45%;
+            height: 20%;
+        }
+        .contenedor-Logo {
+            height: 70%;
+            width: 30%;
+        }
+        .nav-link {
+            font-size: 1.2em;
         }
         }
         @media (max-width: 499px){
-            .contdebienvenidaylogin {width: 100%;}
-        .franyicons {display: none;}
+        
         }
