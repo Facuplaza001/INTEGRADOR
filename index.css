@@ -265,29 +265,67 @@ footer {
 
     @media (max-width: 849px) and (min-width: 700px){ 
         .navegacion {
-            height: 20%;
+            height: 18%;
         }
         .contenedor-Logo {
             height: 75%;
             width: 35%;
         }
-        .nav-link {
+        .nav-link    {
             font-size: 1.3em;
         }
+        .con-imgenes .imagenes{ 
+                margin: 0%;
+                width: 80%;
+                height: 80%;
+        }
+       .contenedor {
+        width: 100%;
+      }
     }
     /*//////////////////////////////////////////////////////////*/
     @media (max-width: 699px) and (min-width:500px){
-        .navegacion{
-            height: 20%;
+        .navegacion {
+            height: 15%;
         }
         .contenedor-Logo {
             height: 70%;
             width: 30%;
         }
-        .nav-link {
-            font-size: 1.2em;
+        .nav-link    {
+            font-size: 1.3em;
         }
+        .con-imgenes .imagenes{ 
+                margin: 0%;
+                width: 85%;
+                height: 85%;
         }
-        @media (max-width: 499px){
-        
+        .contenedor {
+        width: 100%;
+      }
+    }
+        @media (max-width: 499px){ 
+      
+      .navegacion {
+            height: 15%;
         }
+        .contenedor-Logo {
+            height: 70%;
+            width: 30%;
+        }
+        .nav-link    {
+            font-size: 1em;
+        }
+        .con-imgenes .imagenes{ 
+                margin: 0%;
+                width: 85%;
+                height: 85%;
+        } 
+       .ubicacion { margin-top: 5%}
+
+       .cards2  { width:40%;}
+
+      .contenedor {
+        width: 100%;
+      } 
+    }
