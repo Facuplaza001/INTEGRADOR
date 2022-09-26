@@ -62,19 +62,17 @@ body {
     font-size: 16px;
   }
   
-  .submit {
+  .login-box input[type="submit"] {
     border: none;
     outline: none;
     height: 40px;
-    width: 60%;
     background: #b7ac96;
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
-    text-align: center;
   }
   
-  .submit:hover {
+  .login-box input[type="submit"]:hover {
     cursor: pointer;
     background: white;
     color: #000;
