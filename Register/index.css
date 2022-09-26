@@ -135,16 +135,23 @@ body {
     }
 
     @media (max-width: 849px) and (min-width: 700px){ 
-        .navegacion {
-            width: 18%;
-        }
-        .contenedor-Logo {
-            height: 75%;
-            width: 35%;
-        }
-        .nav-link {
-            font-size: 1.3em;
-        }
+      .navegacion {
+        height: 20%;
+    }
+    .nav-link{
+        font-size: 1.3em;
+    }
+    button{
+        height: 23%;
+    }
+    .con-imgenes{
+        width: 95%;
+        height: 95%;
+    
+    }
+    .descripcion{
+        height: 50%;
+    }
     }
     /*//////////////////////////////////////////////////////////*/
     @media (max-width: 699px) and (min-width:500px){
