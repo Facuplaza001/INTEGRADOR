@@ -152,7 +152,7 @@ a { display: block;}
   /*//////////////////////////////////////////////////////////*/
   @media (max-width: 699px) and (min-width:500px){
     .login-box 
-    { width: 55%;
+    { width: 65%;
      height: 60%;}
     form  {
      display: flex;
@@ -168,7 +168,7 @@ a { display: block;}
       }
   @media (max-width: 499px){
     .login-box 
-    { width: 55%;
+    { width: 70%;
      height: 60%;}
     form  {
      display: flex;
